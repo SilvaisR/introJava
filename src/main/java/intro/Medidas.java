@@ -6,7 +6,6 @@ package intro;
 import java.util.Scanner;
 
 
-
 // 3 - classe
 public class Medidas {
     // 3.1 - atributos - caracteristicas
@@ -15,54 +14,56 @@ public class Medidas {
 
 
     public static void main(String[] args) {
+        contagemRegressiva();
 
-        // Usando o método scanner para poder ler um valor do usuário
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("De 1 à 12, qual é sua escolha?   ");
 
-        String opcao = scanner.next();
-
-        switch (opcao){
-            case "1":
-                System.out.println("Janeiro");
-                break;
-            case "2":
-                System.out.println("Fevereiro");
-                break;
-            case "3":
-                System.out.println("Março");
-                break;
-            case "4":
-                System.out.println("Maio");
-                break;
-            case "5":
-                System.out.println("Abril");
-                break;
-            case "6":
-                System.out.println("Junho");
-                break;
-            case "7":
-                System.out.println("Julho");
-                break;
-            case "8":
-                System.out.println("Agosto");
-                break;
-            case "9":
-                System.out.println("Setembro");
-                break;
-            case "10":
-                System.out.println("Outubro");
-                break;
-            case "11":
-                System.out.println("Novembro");
-                break;
-            case "12":
-                System.out.println("Dezembro");
-                break;
-            default:
-                System.out.println("Número inválido.");
-                break;
-        }
+//        // Usando o método scanner para poder ler um valor do usuário
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("De 1 à 12, qual é sua escolha?   ");
+//
+//        String opcao = scanner.next();
+//
+//        switch (opcao){
+//            case "1":
+//                System.out.println("Janeiro");
+//                break;
+//            case "2":
+//                System.out.println("Fevereiro");
+//                break;
+//            case "3":
+//                System.out.println("Março");
+//                break;
+//            case "4":
+//                System.out.println("Maio");
+//                break;
+//            case "5":
+//                System.out.println("Abril");
+//                break;
+//            case "6":
+//                System.out.println("Junho");
+//                break;
+//            case "7":
+//                System.out.println("Julho");
+//                break;
+//            case "8":
+//                System.out.println("Agosto");
+//                break;
+//            case "9":
+//                System.out.println("Setembro");
+//                break;
+//            case "10":
+//                System.out.println("Outubro");
+//                break;
+//            case "11":
+//                System.out.println("Novembro");
+//                break;
+//            case "12":
+//                System.out.println("Dezembro");
+//                break;
+//            default:
+//                System.out.println("Número inválido.");
+//                break;
+//        }
 
     }
 
@@ -101,4 +102,24 @@ public class Medidas {
 //        int comprimento = 3;
 //        System.out.println("A área é de: " + largura*comprimento);
 //    }
+
+//    public static void contarAteDez() {
+//
+//        //Loop ou repetições
+//        // for = repetição incondicional
+//
+//        for (int numero = 1; numero <= 10; numero++) {
+//            System.out.println("Contando: " + numero);
+//        }
+//
+//    }
+
+    public static void contagemRegressiva() {
+        System.out.println("Contagem regressiva");
+    for(int numero = 10; numero > -1; numero--){
+        System.out.println(numero);
+    }
+    }
+
+
 }
