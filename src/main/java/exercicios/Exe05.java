@@ -3,7 +3,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exe05 {
+public class Exe05 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

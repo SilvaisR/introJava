@@ -1,7 +1,7 @@
 package exercicios;
 // Crie um programa que leia dois números e mostre a soma entre eles.
 import java.util.Scanner;
-public class exe03 {
+public class Exe03 {
 
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);

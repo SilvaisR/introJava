@@ -1,7 +1,7 @@
 package exercicios;
 // Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas.
 import java.util.Scanner;
-public class exe02 {
+public class Exe02 {
 
     public static void main(String[] args){
 

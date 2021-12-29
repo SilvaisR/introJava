@@ -4,20 +4,21 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class exe06 {
+public class Exe06 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite um número: ");
         int num = Integer.parseInt(scanner.next());
         System.out.println();
         int dobro = num * 2;
         int triplo = num * 3;
-        int raiz = num ** (1/2);
         System.out.println("O número digitado foi: " + num + "\n" +
                 "O seu dobro é: " + dobro + "\n" +
                 "Seu triplo é: " + triplo + "\n" +
-                "Sua raiz quadrada é: " + raiz);
+                "Sua raiz quadrada é: " + Math.sqrt(num));
+
+
     }
 
 }
